@@ -1,5 +1,3 @@
-FROM phpid/xampp
+FROM nginx
 
-COPY . .
-
-CMD [ "start" ]
+COPY . /usr/share/nginx/html
